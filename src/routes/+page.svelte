@@ -8,13 +8,24 @@
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
 	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
+	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
 </script>
 
-<CustomerCardHero
-  centered={false}
-  title="Clarity that moves with the market"
-  subtitle="Reflexivity delivers trusted, real-time intelligence for institutional and wealth investors—all from one secure, unified platform."
-  customers={[
+<Hero
+	centered
+	title="Clarity that moves with the market"
+	subtitle="Reflexivity delivers trusted, real-time intelligence for institutional and wealth investors—all from one secure, unified platform."
+/>
+<video autoplay muted loop playsinline class="sc-9f88f3a3-3 gDhaGV mx-auto mix-blend-luminosity"
+	><source
+		src="https://cdn.toggle.ai/cd869464e939172633f04b3c306e96e32a882c32/_next/static/chunks/assets/videos/app-presentation.717c7f387b0c12b6.webm"
+		type="video/webm"
+	/><source
+		src="https://cdn.toggle.ai/cd869464e939172633f04b3c306e96e32a882c32/_next/static/chunks/assets/videos/app-presentation.86fe1d32b1c8f379.mp4"
+		type="video/mp4"
+	/>Your browser does not support the video tag.</video
+>
+<!-- customers={[
     {
       name: "Eric Liu",
       position: "Senior Portfolio Manager",
@@ -40,121 +51,134 @@
       position: "Portfolio Manager",
       imageSrc: "/generated/image-a-professional-woman-portfolio-manager-i.webp"
     }
-  ]}
-/>
+  ]} -->
 
 <LogoScroller
 	label="Trusted by industry leaders"
 	logoUrls={[
-		'https://logo.clearbit.com/ubs.com',
-		'https://logo.clearbit.com/interactivebrokers.com',
-		'https://logo.clearbit.com/mufg.jp',
-		'https://logo.clearbit.com/tradestation.com'
+		"https://logo.clearbit.com/ubs.com",
+		"https://logo.clearbit.com/interactivebrokers.com",
+		"https://logo.clearbit.com/mufg.jp",
+		"https://logo.clearbit.com/tradestation.com"
 	]}
 />
 
 <Summary
-	generating
 	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	text="Reflexivity is a market-intelligence platform for institutional and wealth investors, powered by a proprietary Knowledge Graph and natural-language AI. Get real-time, auditable insights and unify your research and monitoring—all from a single, browser-based terminal."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Elise Tanaka",
+			position: "Head of Thematic Research",
+			company: "Helix Capital",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image:
-				"https://images.unsplash.com/photo-1571513722275-4b41940f54b8?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"Reflexivity helped our team catch hidden exposures that we previously missed—like channel risk tied to Chinese consumer assets—reducing overall portfolio variance by 12% in a single quarter.",
+			image: "/generated/image-a-japanese-woman-in-a-modern-finance-off.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Deven Ocampo",
+			position: "Chief Product Officer",
+			company: "Orion Securities",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image:
-				"https://images.unsplash.com/photo-1600603405959-6d623e92445c?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"We integrated AI-driven market insights into our retail platform ten times faster than planned, saving several sprint cycles and reducing dependencies on external analysts.",
+			image: "/generated/image-a-filipino-man-in-a-fintech-office-surro.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Daniella Feron",
+			position: "Portfolio Strategy Lead",
+			company: "Argo Family Office",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image:
-				"https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"Cut our team’s time spent on daily macro and thematic research by over twenty hours per week—which freed up resources and shrank outside research spend by nearly forty percent.",
+			image: "/generated/image-a-french-woman-seated-at-a-desk-in-an-of.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Key features"
+	subtitle="What makes Reflexivity different"
 	features={[
 		{
-			title: "Streamlined Workflows",
+			title: "AI-powered knowledge graph",
 			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+				"Maps 40,000+ global assets with explainable links across brands, supply chains, and themes—so you surface connections others miss."
 		},
 		{
-			title: "Data Analysis",
+			title: "Auditable, real-time answers",
 			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+				"Every insight includes full source traceability and citations, giving confidence in every decision and workflow."
 		},
 		{
-			title: "Secure Collaboration",
+			title: "Instant thematic analysis",
 			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+				"Test scenarios, run screens, and spot trends in seconds, not hours. Fast results with no terminals required."
+		},
+		{
+			title: "Plug-and-play intelligence",
+			description:
+				"Drop charts, tables, and insight modules into your platform via API or component—launch features 90% faster."
+		},
+		{
+			title: "Enterprise security by design",
+			description:
+				"Zero-trust, SOC 2 compliance, and proprietary authentication built for safe scaling across global partners."
+		},
+		{
+			title: "Browser-based, always up to date",
+			description:
+				"No installs, patches or maintenance. Reflexivity updates itself to keep you ready for what’s next."
 		}
 	]}
 />
 
 <UseCases
-	generating
 	title="Use Cases"
 	subtitle="Real-world applications for your business needs"
 	useCases={[
 		{
-			title: "Streamlined Workflows",
+			title: "Accelerate institutional research",
 			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings.",
-			image:
-				"https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
+				"Speed up multi-asset coverage across equities, credit, macro, and alternatives. Reflexivity brings all your relevant data and insights onto one command center, making deep dives and thematic analysis effortless for investment teams.",
+			image: "/generated/image-a-diverse-team-of-institutional-investor.webp",
 			link: {
-				href: "/use-cases/workflows",
+				href: "/use-cases/institutional-investing",
 				label: "Learn more"
 			}
 		},
 		{
-			title: "Data Analysis",
+			title: "Personalize wealth management",
 			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2488&q=80",
+				"Instantly surface exposures and trends that matter to every client portfolio. Reflexivity lets advisors move beyond static dashboards to auditable, live market intelligence—helping you build trust at every touchpoint.",
+			image: "/generated/image-a-wealth-manager-sitting-comfortably-in-.webp",
 			link: {
-				href: "/use-cases/data-analysis",
-				label: "Explore analytics"
+				href: "/use-cases/wealth-management",
+				label: "Learn more"
 			}
 		},
 		{
-			title: "Secure Collaboration",
+			title: "Embed intelligence in your platform",
 			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption.",
-			image:
-				"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
+				"Plug Reflexivity’s insights, screeners, and analytics modules directly into your fintech or brokerage product. Increase user retention with differentiated data and personalized alerts, all delivered securely and at scale.",
+			image: "/generated/image-a-fintech-team-collaborating-in-a-sleek-.webp",
 			link: {
-				href: "/use-cases/collaboration",
-				label: "See security features"
+				href: "/use-cases/fintech-embedding",
+				label: "Learn more"
 			}
 		}
 	]}
 />
 
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+	title="Markets move fast. Move faster."
+	subtitle="Your edge starts here."
+	description="Reflexivity brings institutional and platform investors AI-native market intelligence, powered by our proprietary Knowledge Graph. Request a demo or get started today."
+	imageSrc="/generated/image-a-cheerful-financial-professional-standi.webp"
+	callsToAction={[
+		{ href: "/get-started", label: "Get started", variant: "primary" },
+		{ href: "/contact", label: "Request a demo", variant: "secondary" }
+	]}
+/>

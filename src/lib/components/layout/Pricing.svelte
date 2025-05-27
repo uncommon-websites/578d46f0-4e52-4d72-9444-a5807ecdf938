@@ -35,139 +35,135 @@ Please update features according to the company's product offering. Do not remov
 
 	// Props
 	const {
-		title = "Simple, transparent pricing",
-		subtitle = "Choose the plan that works best for your needs",
-		tierNames = ["Starter", "Pro", "Enterprise"],
+		title = "Flexible, institutional pricing",
+		subtitle = "Choose the plan that fits your firm's research and integration needs.",
+		tierNames = ["Starter", "Professional", "Enterprise"],
 		features = [
-			{
-				name: "Projects",
-				tiers: {
-					Starter: "5",
-					Pro: "Unlimited",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "Team members",
-				tiers: {
-					Starter: "1",
-					Pro: "10",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "Storage",
-				tiers: {
-					Starter: "1GB",
-					Pro: "10GB",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "API access",
-				tiers: {
-					Starter: false,
-					Pro: true,
-					Enterprise: true
-				}
-			},
-			{
-				name: "Custom domains",
-				tiers: {
-					Starter: false,
-					Pro: true,
-					Enterprise: true
-				}
-			},
-			{
-				name: "Analytics",
-				tiers: {
-					Starter: "Basic",
-					Pro: "Advanced",
-					Enterprise: "Advanced"
-				}
-			},
-			{
-				name: "Support response time",
-				tiers: {
-					Starter: "24 hours",
-					Pro: "4 hours",
-					Enterprise: "1 hour"
-				}
-			},
-			{
-				name: "Dedicated account manager",
-				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: true
-				}
-			},
-			{
-				name: "SLA",
-				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: "99.9%"
-				}
+		{
+			name: "Terminal access",
+			tiers: {
+				Starter: "1 license",
+				Professional: "Up to 5 licenses",
+				Enterprise: "Unlimited"
 			}
-		],
+		},
+		{
+			name: "Knowledge Graph access",
+			tiers: {
+				Starter: "Full",
+				Professional: "Full",
+				Enterprise: "Full + custom mappings"
+			}
+		},
+		{
+			name: "AI assistants (charting, screening, scenarios)",
+			tiers: {
+				Starter: true,
+				Professional: "Enhanced features",
+				Enterprise: "Full access via chat & API"
+			}
+		},
+		{
+			name: "Insights & alerts",
+			tiers: {
+				Starter: "Curated feeds",
+				Professional: "Custom dashboards & alerts",
+				Enterprise: "White-label feeds, Zapier triggers"
+			}
+		},
+		{
+			name: "APIs",
+			tiers: {
+				Starter: "Trial - insight endpoints",
+				Professional: "Several analysis/search endpoints",
+				Enterprise: "All APIs + tuning"
+			}
+		},
+		{
+			name: "UI SDK & components",
+			tiers: {
+				Starter: "Internal view-only",
+				Professional: "Basic deployment",
+				Enterprise: "Full white-label integration"
+			}
+		},
+		{
+			name: "Support",
+			tiers: {
+				Starter: "Email (5-day SLA)",
+				Professional: "Email + chat (48h SLA)",
+				Enterprise: "Dedicated (<4hr SLA)"
+			}
+		},
+		{
+			name: "Security & compliance",
+			tiers: {
+				Starter: "SOC 2 hosted",
+				Professional: "SOC 2, custom domain login",
+				Enterprise: "Zero-trust, SSO/SAML, audit trail"
+			}
+		}
+	],
 		tiers = [
-			{
-				name: "Starter",
-				monthlyPrice: 9.99,
-				yearlyPrice: 7.99, // 20% savings
-				description: "Perfect for individuals and small projects",
-				features: [
-					"Up to 5 projects",
-					"Basic analytics",
-					"24-hour support response time",
-					"1GB storage"
-				],
-				cta: {
-					label: "Get started",
-					href: "/signup?plan=starter"
-				}
-			},
-			{
-				name: "Pro",
-				monthlyPrice: 29.99,
-				yearlyPrice: 23.99, // 20% savings
-				description: "For growing teams and businesses",
-				features: [
-					"Unlimited projects",
-					"Advanced analytics",
-					"4-hour support response time",
-					"10GB storage",
-					"Custom domains",
-					"Team collaboration tools"
-				],
-				cta: {
-					label: "Get started",
-					href: "/signup?plan=pro"
-				},
-				highlight: true
-			},
-			{
-				name: "Enterprise",
-				monthlyPrice: null,
-				yearlyPrice: null,
-				description: "For large organizations with specific needs",
-				features: [
-					"Everything in Pro",
-					"Dedicated account manager",
-					"1-hour support response time",
-					"Unlimited storage",
-					"Advanced security features",
-					"Custom integrations",
-					"99.9% uptime SLA"
-				],
-				cta: {
-					label: "Contact sales",
-					href: "/contact"
-				}
+		{
+			name: "Starter",
+			monthlyPrice: 895,
+			yearlyPrice: 9500 / 12,
+			description: "For boutique funds or smaller wealth firms. Single-seat, AI-first research, no setup complexity.",
+			features: [
+				"1 Reflexivity Terminal license",
+				"Full-access AI assistants (search, charts, screening, macro Q&A)",
+				"Realtime and historical Knowledge Graph data",
+				"1,500+ daily insights",
+				"Limited API trial access (basic endpoints)",
+				"Standard support (email, 5-day SLA)",
+				"No-code module sharing for internal review"
+			],
+			cta: {
+				label: "Start with Starter",
+				href: "/signup?plan=starter"
 			}
-		]
+		},
+		{
+			name: "Professional",
+			monthlyPrice: 2750,
+			yearlyPrice: 28000 / 12,
+			description: "For small teams, family offices, and mid-size firms. Multi-seat, deeper analysis, workflow and light API.",
+			features: [
+				"Up to 5 Terminal licenses",
+				"Advanced scenario analysis, custom KPIs, NLG summaries",
+				"Portfolio alerting & predictive insights",
+				"Light API usage for screening, scenario, news, and charts",
+				"SDK access for dashboard components",
+				"Email + live chat support (48-hour SLA)",
+				"Analytics and dashboard templates"
+			],
+			cta: {
+				label: "Upgrade to Professional",
+				href: "/signup?plan=professional"
+			},
+			highlight: true
+		},
+		{
+			name: "Enterprise",
+			monthlyPrice: null,
+			yearlyPrice: null,
+			description: "For institutions, platforms, and banks. Unlimited seats, full API/SDK, white-label, custom integrations, SLA.",
+			features: [
+				"Unlimited Terminal licenses and API usage",
+				"All AI assistants via API and chat",
+				"White-label SDKs and embeddable content",
+				"Custom data joins and tuning",
+				"Dedicated success manager & solution engineer",
+				"Guaranteed SLA: 99.99% uptime, <4hr RTO, 24/5 support",
+				"Zero-trust, SOC 2, audit trail & SSO/SAML"
+			],
+			cta: {
+				label: "Contact sales",
+				href: "/contact"
+			}
+		}
+	]
 	}: {
 		title?: string;
 		subtitle?: string;

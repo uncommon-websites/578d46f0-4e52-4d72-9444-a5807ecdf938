@@ -23,22 +23,24 @@
 		"bg-primary-50 text-primary-600 dark:bg-primary-950 dark:text-primary-400 flex items-center justify-center rounded-full";
 
 	const benefits = [
-		{
-			title: "Flexible Work",
-			description: "Remote-first with flexible hours that respect work-life balance.",
-			icon: IconBriefcase
-		},
-		{
-			title: "Growth Opportunities",
-			description: "Continuous learning with mentorship and education stipends.",
-			icon: IconUsers
-		},
-		{
-			title: "Comprehensive Benefits",
-			description: "Health coverage, retirement plans, and generous paid time off.",
-			icon: IconHeart
-		}
-	];
+  {
+    title: "Direct impact",
+    description: "Work on technology shaping real-time decision-making across global finance.",
+    icon: IconBriefcase,
+  },
+  {
+    title: "Elite team, fast learning",
+    description:
+      "Collaborate with leaders from hedge funds, VC, and AI startups. Growth is measured in real outcomes—not just titles.",
+    icon: IconUsers,
+  },
+  {
+    title: "Ownership & autonomy",
+    description:
+      "Own major projects from day one in a flat, trust-first environment with rapid feedback and low bureaucracy.",
+    icon: IconHeart,
+  },
+];
 
 	const openings: JobOpening[] = [
 		// Engineering
@@ -121,78 +123,96 @@
 	];
 
 	const employeeTestimonials = [
-		{
-			name: "Michael Chen",
-			position: "Senior Developer",
-			company: "Engineering Team",
-			quote:
-				"Working here has given me the opportunity to tackle challenging problems while maintaining a healthy work-life balance. The team culture is supportive and collaborative.",
-			image:
-				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Priya Sharma",
-			position: "Product Designer",
-			company: "Design Team",
-			quote:
-				"The creative freedom and opportunity to influence product decisions makes this the best place I've ever worked. I'm constantly learning and growing.",
-			image:
-				"https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Marcus Johnson",
-			position: "Marketing Lead",
-			company: "Marketing Team",
-			quote:
-				"I joined three years ago and have grown tremendously. The leadership truly invests in your development and the work environment is both challenging and supportive.",
-			image:
-				"https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		}
-	];
+  {
+    name: "Jamal Brooks",
+    position: "Software Engineer",
+    company: "Engineering Team",
+    quote:
+      "Reflexivity’s culture really encourages learning and mentorship. I feel heard here, and my ideas are valued. Every project gives me the chance to grow alongside sharp, motivated colleagues.",
+    image:
+      "/generated/image-a-young-black-male-professional-in-a-mod.webp"
+  },
+  {
+    name: "Neha Patel",
+    position: "Product Manager",
+    company: "Product Team",
+    quote:
+      "There’s true collaboration across teams and everyone’s voice matters—from new hires to leadership. Reflexivity trusts me to take initiative and the support for career development is real, not just talk.",
+    image:
+      "/generated/image-a-south-asian-female-professional-in-her.webp"
+  },
+  {
+    name: "David Miller",
+    position: "Director of Operations",
+    company: "Operations",
+    quote:
+      "What stands out is the transparency and trust at every level. It’s a fast-paced environment where people help each other succeed and leadership leads by example. Reflexivity empowers me to make real impact daily.",
+    image:
+      "/generated/image-a-white-male-professional-in-his-40s-dre.webp"
+  }
+];
 
 	const processSteps = [
-		{
-			step: 1,
-			title: "Apply",
-			description:
-				"Submit your application through our careers portal with your resume and portfolio."
-		},
-		{
-			step: 2,
-			title: "Interview",
-			description: "Meet with our team to discuss your experience, skills, and career aspirations."
-		},
-		{
-			step: 3,
-			title: "Welcome aboard",
-			description: "Join our team and start your journey building the future with us."
-		}
-	];
+  {
+    step: 1,
+    title: "Apply",
+    description:
+      "Submit your resume and a short note on why Reflexivity is a match. We review all candidates quickly.",
+  },
+  {
+    step: 2,
+    title: "Screening call",
+    description:
+      "A 30-minute call to discuss your motivations, interests, and fit within our culture.",
+  },
+  {
+    step: 3,
+    title: "Technical or case interview",
+    description:
+      "Show your skills through a role-relevant task, coding screen, or real-world case study.",
+  },
+  {
+    step: 4,
+    title: "Meet the team",
+    description:
+      "Engage with team members and founders to go deeper and get unfiltered perspectives.",
+  },
+  {
+    step: 5,
+    title: "Decision and offer",
+    description:
+      "Receive fast, candid feedback. Most processes wrap up in 2-3 weeks from your first application.",
+  },
+];
 
 	const values = [
-		{
-			icon: IconHeart,
-			title: "Passion",
-			description: "We're driven by a shared passion for innovation and excellence."
-		},
-		{
-			icon: IconUsers,
-			title: "Collaboration",
-			description: "We believe in teamwork and collaboration to achieve great things."
-		},
-		{
-			icon: IconGlobe,
-			title: "Global Impact",
-			description: "We're committed to making a positive impact on the world."
-		}
-	];
+  {
+    icon: IconHeart,
+    title: "Outcomes over optics",
+    description:
+      "We focus on building products that solve real problems and move markets—not just showing progress.",
+  },
+  {
+    icon: IconUsers,
+    title: "Systems thinkers",
+    description:
+      "We connect details to big-picture strategy. If you see how things work together, you’ll thrive here.",
+  },
+  {
+    icon: IconGlobe,
+    title: "Minimal politics. Maximum ownership.",
+    description:
+      "We keep decision-making direct and elevate ideas over job titles. High trust, low ego.",
+  },
+];
 </script>
 
 <!-- Hero Section -->
 
 <SecondaryHero
-	title="Join our team of innovators"
-	subtitle="We're looking for passionate people to help us build the future of digital experiences. Discover your next opportunity with us."
+	title="Build the future of financial intelligence"
+	subtitle="Join global engineers and experts powering AI-driven insight"
+	imageSrc="/generated/image-a-diverse-team-of-professionals-collabor.webp"
 />
 
 <!-- Why Join Us Section -->
