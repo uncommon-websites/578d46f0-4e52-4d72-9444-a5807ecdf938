@@ -56,10 +56,21 @@
 <LogoScroller
 	label="Trusted by industry leaders"
 	logoUrls={[
-		"https://logo.clearbit.com/ubs.com",
-		"https://logo.clearbit.com/interactivebrokers.com",
-		"https://logo.clearbit.com/mufg.jp",
-		"https://logo.clearbit.com/tradestation.com"
+		"https://cdn.toggle.ai/cd869464e939172633f04b3c306e96e32a882c32/_next/static/media/wall-street-journal.27de7283.svg",
+		"https://cdn.toggle.ai/cd869464e939172633f04b3c306e96e32a882c32/_next/static/media/bloomberg.9d4be63c.svg",
+		"https://cdn.toggle.ai/cd869464e939172633f04b3c306e96e32a882c32/_next/static/media/barrons.211d04a9.svg",
+		"https://cdn.toggle.ai/cd869464e939172633f04b3c306e96e32a882c32/_next/static/media/cnbc.1e5dd650.svg",
+		"https://cdn.toggle.ai/cd869464e939172633f04b3c306e96e32a882c32/_next/static/media/fox.5314b6db.svg",
+		"https://cdn.toggle.ai/cd869464e939172633f04b3c306e96e32a882c32/_next/static/media/marketwatch.2fa33a4b.svg",
+		"https://cdn.toggle.ai/cd869464e939172633f04b3c306e96e32a882c32/_next/static/media/yahoo.6a6f26ed.svg",
+		"https://cdn.toggle.ai/cd869464e939172633f04b3c306e96e32a882c32/_next/static/media/business-insider.75364b33.svg",
+		"https://cdn.toggle.ai/cd869464e939172633f04b3c306e96e32a882c32/_next/static/media/bond-buyer.8d9eb71a.svg",
+		"https://cdn.toggle.ai/cd869464e939172633f04b3c306e96e32a882c32/_next/static/media/reuters.6ef8b7f6.svg",
+		"https://cdn.toggle.ai/cd869464e939172633f04b3c306e96e32a882c32/_next/static/media/forbes.4ba0b835.svg",
+		"https://cdn.toggle.ai/cd869464e939172633f04b3c306e96e32a882c32/_next/static/media/benzinga.b9e5e76e.svg",
+		"https://cdn.toggle.ai/cd869464e939172633f04b3c306e96e32a882c32/_next/static/media/nasdaq.07ea9e7f.svg",
+		"https://cdn.toggle.ai/cd869464e939172633f04b3c306e96e32a882c32/_next/static/media/kiplinger.77ec421a.svg",
+		"https://cdn.toggle.ai/cd869464e939172633f04b3c306e96e32a882c32/_next/static/media/the-street.1a1f54b7.svg"
 	]}
 />
 

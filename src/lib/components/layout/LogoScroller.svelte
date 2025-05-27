@@ -42,13 +42,13 @@
 	{/if}
 	<div class="m-auto w-full max-w-prose overflow-hidden">
 		<Marquee
-			class="mask-image h-full items-center text-gray-400 [--gap:theme(spacing.6)] sm:[--gap:theme(spacing.12)]"
+			class="mask-image [--gap:theme(spacing.6)] sm:[--gap:theme(spacing.12)] h-full items-center text-gray-400"
 			speed={paused ? 0 : 0.1}
 		>
 			{#each logoUrls as logo}
 				<img
 					src={logo}
-					class="mx-8 h-5 w-fit object-contain opacity-70 saturate-0 dark:invert
+					class="mx-8 h-10 w-fit object-contain
 					"
 				/>
 			{/each}
