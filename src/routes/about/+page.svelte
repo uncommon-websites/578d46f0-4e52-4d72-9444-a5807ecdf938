@@ -32,7 +32,7 @@
 <SecondaryHero
 	title="Institutional-grade intelligence. Auditable by design."
 	subtitle="Redefining market insight with real-time AI and a self-learning Knowledge Graph."
-	imageSrc="/mockups/dark-screen-1748351485588.png"
+	imageSrc="/generated/image-a-professional-business-team-collaborati.webp"
 />
 
 <!-- Story Section -->
