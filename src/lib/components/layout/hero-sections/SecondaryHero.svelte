@@ -20,7 +20,7 @@
 			<img
 				class="h-full w-full object-cover"
 				src={imageSrc}
-				alt="Diverse group of people collaborating"
+				alt="Reflexivity platform displayed on conference room screen"
 			/>
 		</div>
 	</div>
