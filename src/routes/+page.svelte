@@ -7,16 +7,51 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+<CustomerCardHero
+  centered={false}
+  title="Clarity that moves with the market"
+  subtitle="Reflexivity delivers trusted, real-time intelligence for institutional and wealth investors—all from one secure, unified platform."
+  customers={[
+    {
+      name: "Eric Liu",
+      position: "Senior Portfolio Manager",
+      imageSrc: "/generated/image-a-confident-male-finance-professional-in.webp"
+    },
+    {
+      name: "Jessica Kim",
+      position: "Head of Investment Research",
+      imageSrc: "/generated/image-a-professional-woman-investor-in-a-conte.webp"
+    },
+    {
+      name: "Michael Grant",
+      position: "Fintech Strategy Lead",
+      imageSrc: "/generated/image-a-smiling-male-fintech-executive-in-a-mo.webp"
+    },
+    {
+      name: "Alex Morgan",
+      position: "Data Analyst",
+      imageSrc: "/generated/image-a-confident-nonbinary-data-analyst-in-a-.webp"
+    },
+    {
+      name: "Priya Desai",
+      position: "Portfolio Manager",
+      imageSrc: "/generated/image-a-professional-woman-portfolio-manager-i.webp"
+    }
+  ]}
 />
-<LogoScroller label="" generating />
+
+<LogoScroller
+	label="Trusted by industry leaders"
+	logoUrls={[
+		'https://logo.clearbit.com/ubs.com',
+		'https://logo.clearbit.com/interactivebrokers.com',
+		'https://logo.clearbit.com/mufg.jp',
+		'https://logo.clearbit.com/tradestation.com'
+	]}
+/>
 
 <Summary
 	generating
