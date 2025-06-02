@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Funnel+Sans:wght@300;400;500;600;700&display=swap");
+/* Verdana is a system font, no import needed */
 @import "tailwindcss";
 @import "./base.css";
 @import "./typography.css";
@@ -42,7 +42,7 @@
 --color-secondary-950: oklch(0.302 0.056 229.695);
 
 /* Typography */
---font-family: "Funnel Sans";
+--font-family: "Verdana";
 --font-fallback: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 --font-body: var(--font-family), var(--font-fallback);
 --font-display: var(--font-body);
