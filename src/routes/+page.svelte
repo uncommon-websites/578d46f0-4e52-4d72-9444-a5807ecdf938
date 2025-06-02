@@ -12,6 +12,7 @@
 	
 	// Icons
 	import IconBot from "~icons/lucide/bot";
+	import IconBarChart from "~icons/lucide/bar-chart-3";
 </script>
 
 <Hero
@@ -95,7 +96,8 @@
 		{
 			title: "Insights",
 			description:
-				"Daily intelligence generated from 250+ technical, fundamental, and macro signals. Over 1,500 curated outputs land straight in your alerts, dashboards, or API."
+				"Daily intelligence generated from 250+ technical, fundamental, and macro signals. Over 1,500 curated outputs land straight in your alerts, dashboards, or API.",
+			icon: IconBarChart
 		},
 		{
 			title: "Document Search",
