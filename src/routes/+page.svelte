@@ -13,6 +13,7 @@
 	// Icons
 	import IconBot from "~icons/lucide/bot";
 	import IconBarChart from "~icons/lucide/bar-chart-3";
+	import IconFileSearch from "~icons/lucide/file-search";
 </script>
 
 <Hero
@@ -102,7 +103,8 @@
 		{
 			title: "Document Search",
 			description:
-				"Scan earnings, filings, letters, and transcripts—instantly. Our multi-strategy retrieval engine surfaces answers with sentence-level accuracy across formats."
+				"Scan earnings, filings, letters, and transcripts—instantly. Our multi-strategy retrieval engine surfaces answers with sentence-level accuracy across formats.",
+			icon: IconFileSearch
 		},
 		{
 			title: "Scenario Analysis",
