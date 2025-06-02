@@ -5,6 +5,7 @@
 	type Feature = {
 		title: string;
 		description: string;
+		icon?: any;
 		link?: {
 			href: string;
 			label: string;

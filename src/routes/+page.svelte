@@ -9,6 +9,9 @@
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
 	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	
+	// Icons
+	import IconBot from "~icons/lucide/bot";
 </script>
 
 <Hero
@@ -86,7 +89,8 @@
 		{
 			title: "Alfred",
 			description:
-				"Your AI analyst for any market question—across assets, sectors, macro themes and more. Ask in plain language. Get sourced answers with context in seconds."
+				"Your AI analyst for any market question—across assets, sectors, macro themes and more. Ask in plain language. Get sourced answers with context in seconds.",
+			icon: IconBot
 		},
 		{
 			title: "Insights",
