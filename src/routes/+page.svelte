@@ -18,7 +18,7 @@
 
 <Hero
 	centered
-	title="Clarity that moves with your market"
+	title="The AI Analyst for Institutional Finance"
 	subtitle="Reflexivity delivers trusted, real-time intelligence for institutional and wealth investors—all from one secure, unified platform."
 />
 <video autoplay muted loop playsinline class="sc-9f88f3a3-3 gDhaGV mx-auto mix-blend-luminosity"
