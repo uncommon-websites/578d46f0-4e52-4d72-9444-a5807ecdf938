@@ -79,6 +79,38 @@
 	text="Reflexivity is a market-intelligence platform for institutional and wealth investors, powered by a proprietary Knowledge Graph and natural-language AI. Get real-time, auditable insights and unify your research and monitoring—all from a single, browser-based terminal."
 />
 
+<Features
+	title="Faster answers. Smarter moves."
+	subtitle="Reflexivity combines real-time AI with a self-learning financial graph to deliver the speed, accuracy, and transparency institutional investors rely on. No panes to stitch together. Just actionable insight, exactly when you need it."
+	features={[
+		{
+			title: "Alfred",
+			description:
+				"Your AI analyst for any market question—across assets, sectors, macro themes and more. Ask in plain language. Get sourced answers with context in seconds."
+		},
+		{
+			title: "Insights",
+			description:
+				"Daily intelligence generated from 250+ technical, fundamental, and macro signals. Over 1,500 curated outputs land straight in your alerts, dashboards, or API."
+		},
+		{
+			title: "Document Search",
+			description:
+				"Scan earnings, filings, letters, and transcripts—instantly. Our multi-strategy retrieval engine surfaces answers with sentence-level accuracy across formats."
+		},
+		{
+			title: "Scenario Analysis",
+			description:
+				"Test what-if ideas in markets, not spreadsheets. Run hypothetical events or policy changes against thousands of historical asset behaviors—with full source traceability."
+		},
+		{
+			title: "Knowledge Graph",
+			description:
+				"The engine behind it all. Reflexivity's graph continuously maps 40,000+ global assets across exposures, supply chains, stakeholders, and signals—giving you a single point of truth for an increasingly dynamic market landscape."
+		}
+	]}
+/>
+
 <Testimonials
 	testimonials={[
 		{
