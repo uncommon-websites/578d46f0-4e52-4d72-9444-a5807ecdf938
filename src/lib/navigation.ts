@@ -59,6 +59,12 @@ export const navigation: NavItem[] = [
 		showInFooter: false
 	},
 	{
+		label: "Help Center",
+		href: "https://support.reflexivity.com/hc/en-us",
+		showInNav: true,
+		showInFooter: false
+	},
+	{
 		label: "Use Cases",
 		showInNav: true,
 		showInFooter: true,
