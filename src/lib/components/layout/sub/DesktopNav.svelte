@@ -52,7 +52,7 @@
 		</div>
 	</NavigationMenu.Root>
 
-	<Button size="sm" variant="secondary" href={cta.href} class="ml-1">{cta.label}</Button>
+	<Button size="sm" variant="primary" href={cta.href} class="ml-1">{cta.label}</Button>
 </div>
 
 <style lang="postcss">
