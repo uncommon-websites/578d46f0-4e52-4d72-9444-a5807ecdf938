@@ -15,6 +15,7 @@
 	import IconBarChart from "~icons/lucide/bar-chart-3";
 	import IconFileSearch from "~icons/lucide/file-search";
 	import IconTrendingUp from "~icons/lucide/trending-up";
+	import IconNetwork from "~icons/lucide/network";
 </script>
 
 <Hero
@@ -119,7 +120,8 @@
 		{
 			title: "Knowledge Graph",
 			description:
-				"The engine behind it all. Reflexivity's graph continuously maps 40,000+ global assets across exposures, supply chains, stakeholders, and signals—giving you a single point of truth for an increasingly dynamic market landscape."
+				"The engine behind it all. Reflexivity's graph continuously maps 40,000+ global assets across exposures, supply chains, stakeholders, and signals—giving you a single point of truth for an increasingly dynamic market landscape.",
+			icon: IconNetwork
 		}
 	]}
 />
