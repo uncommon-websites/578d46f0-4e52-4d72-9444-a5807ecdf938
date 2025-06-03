@@ -118,6 +118,12 @@ export const navigation: NavItem[] = [
 		showInFooter: false
 	},
 	{
+		label: "Log In",
+		href: "https://reflexivity.com/app",
+		showInNav: true,
+		showInFooter: false
+	},
+	{
 		label: "More",
 		showInNav: false,
 		showInFooter: true,
