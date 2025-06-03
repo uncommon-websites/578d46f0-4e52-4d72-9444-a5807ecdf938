@@ -134,10 +134,10 @@ Usage:
 		/* 5 Features */
 		.feature-count-5 {
 			grid-template-columns: 1fr 1fr 1fr;
-			grid-template-rows: auto auto auto;
+			grid-template-rows: auto auto;
 			grid-template-areas:
 				"a b c"
-				"d e c";
+				"d e .";
 		}
 		.feature-count-5 :global(article:nth-child(1)) {
 			grid-area: a;
