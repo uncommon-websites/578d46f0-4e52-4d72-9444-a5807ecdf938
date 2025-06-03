@@ -14,6 +14,7 @@
 	import IconBot from "~icons/lucide/bot";
 	import IconBarChart from "~icons/lucide/bar-chart-3";
 	import IconFileSearch from "~icons/lucide/file-search";
+	import IconTrendingUp from "~icons/lucide/trending-up";
 </script>
 
 <Hero
@@ -112,7 +113,8 @@
 		{
 			title: "Scenario Analysis",
 			description:
-				"Test what-if ideas in markets, not spreadsheets. Run hypothetical events or policy changes against thousands of historical asset behaviors—with full source traceability."
+				"Test what-if ideas in markets, not spreadsheets. Run hypothetical events or policy changes against thousands of historical asset behaviors—with full source traceability.",
+			icon: IconTrendingUp
 		},
 		{
 			title: "Knowledge Graph",
