@@ -53,18 +53,6 @@ export const cta = {
 
 export const navigation: NavItem[] = [
 	{
-		label: "Pricing",
-		href: "/pricing",
-		showInNav: true,
-		showInFooter: false
-	},
-	{
-		label: "Help Center",
-		href: "https://support.reflexivity.com/hc/en-us",
-		showInNav: true,
-		showInFooter: false
-	},
-	{
 		label: "Use Cases",
 		showInNav: true,
 		showInFooter: true,
@@ -122,6 +110,12 @@ export const navigation: NavItem[] = [
 				showInFooter: true
 			}
 		]
+	},
+	{
+		label: "Help Center",
+		href: "https://support.reflexivity.com/hc/en-us",
+		showInNav: true,
+		showInFooter: false
 	},
 	{
 		label: "More",

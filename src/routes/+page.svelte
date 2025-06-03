@@ -64,7 +64,7 @@
   ]} -->
 
 <LogoScroller
-	label="Trusted by industry leaders"
+	label="In the news"
 	logoUrls={[
 		"https://cdn.toggle.ai/cd869464e939172633f04b3c306e96e32a882c32/_next/static/media/wall-street-journal.27de7283.svg",
 		"https://cdn.toggle.ai/cd869464e939172633f04b3c306e96e32a882c32/_next/static/media/bloomberg.9d4be63c.svg",
