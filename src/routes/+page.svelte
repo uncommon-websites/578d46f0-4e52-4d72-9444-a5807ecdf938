@@ -9,7 +9,7 @@
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
 	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
-	
+
 	// Icons
 	import IconBot from "~icons/lucide/bot";
 	import IconBarChart from "~icons/lucide/bar-chart-3";
@@ -21,7 +21,7 @@
 	title="The AI Analyst for Institutional Finance"
 	subtitle="Reflexivity delivers trusted, real-time intelligence for institutional and wealth investors—all from one secure, unified platform."
 />
-<video autoplay muted loop playsinline class="sc-9f88f3a3-3 gDhaGV mx-auto mix-blend-luminosity"
+<!-- <video autoplay muted loop playsinline class="sc-9f88f3a3-3 gDhaGV mx-auto mix-blend-luminosity"
 	><source
 		src="https://cdn.toggle.ai/cd869464e939172633f04b3c306e96e32a882c32/_next/static/chunks/assets/videos/app-presentation.717c7f387b0c12b6.webm"
 		type="video/webm"
@@ -29,7 +29,10 @@
 		src="https://cdn.toggle.ai/cd869464e939172633f04b3c306e96e32a882c32/_next/static/chunks/assets/videos/app-presentation.86fe1d32b1c8f379.mp4"
 		type="video/mp4"
 	/>Your browser does not support the video tag.</video
->
+> -->
+<video autoplay muted loop playsinline class="sc-9f88f3a3-3 gDhaGV mx-auto mix-blend-luminosity"
+	><source src="/reflexivity-hero.webm" type="video/webm" />
+</video>
 <!-- customers={[
     {
       name: "Eric Liu",
